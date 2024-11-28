@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    h1{
+        @apply text-xl font-bold
+    }
+    h2{
+        @apply text-lg font-bold
+    }
+    label{
+        @apply mt-3 mb-1
+    }
+    input, textarea, button{
+        @apply p-3 mb-4 border border-solid border-gray-300 rounded text-xl
+    }
+    button{
+        @apply bg-blue-300 text-gray-900 hover:bg-green-300
+    }
+    .navbtn {
+        @apply px-4 py-2 bg-green-300 rounded-xl text-gray-900 text-sm font-bold
+    }
+    .current{
+        @apply bg-blue-300 
+    }
+}
